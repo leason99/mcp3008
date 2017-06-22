@@ -1,4 +1,4 @@
-## mcp3008
+## MCP3008
 
 - it is raspberrypi project use mcp3008 to read the Analogy signal through C Library
 - After read data form mcp3008 ,it will conduct FFT to Analysis the signal

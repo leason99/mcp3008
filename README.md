@@ -11,7 +11,7 @@
 
 ##  Notice
 - [py-libbcm2835](https://github.com/mubeta06/py-libbcm2835)
-this is python interface to use the c library bcm2835   
+this package is python interface to use the c library libbcm2835   
 (libbcm2835 need to install by yourself)
 - you have to install matplotlib if you haven't install ever,because picture function base on it
     

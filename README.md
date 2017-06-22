@@ -17,6 +17,6 @@ this is python interface to use the c library bcm2835
     
     > pip install matplotlib
 
-# Other information
+## Other information
   [Analyzing SPI driver performance on the Raspberry Pi](http://www.jumpnowtek.com/rpi/Analyzing-raspberry-pi-spi-performance.html)
   

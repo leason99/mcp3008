@@ -1,10 +1,10 @@
-# mcp3008
+## mcp3008
 
 - it is raspberrypi project use mcp3008 to read the Analogy signal through C Library
 - After read data form mcp3008 ,it will conduct FFT to Analysis the signal
 - the FFT result will be save as picture
 
-# Start 
+## Start 
   > sudo python3 readMcp3008.py
 
 
@@ -17,6 +17,6 @@ this is python interface to use the c library bcm2835
     
     > pip install matplotlib
 
-#Other information
+# Other information
   [Analyzing SPI driver performance on the Raspberry Pi](http://www.jumpnowtek.com/rpi/Analyzing-raspberry-pi-spi-performance.html)
   

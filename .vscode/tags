@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BCMMCP3008.py	../BCMMCP3008.py	1;"	kind:file	line:1
+GPIO	../BCMMCP3008.py	/^import RPi.GPIO as GPIO$/;"	kind:namespace	line:21
+MCP3008	../BCMMCP3008.py	/^class MCP3008(object):$/;"	kind:class	line:28
+MCP3008	../readMcp3008.py	/^from BCMMCP3008 import MCP3008$/;"	kind:namespace	line:11
+RPi	../BCMMCP3008.py	/^import RPi.GPIO as GPIO$/;"	kind:namespace	line:21
+SPI_DEVICE	../readMcp3008.py	/^SPI_DEVICE = 0$/;"	kind:variable	line:16
+SPI_PORT	../readMcp3008.py	/^SPI_PORT= 0$/;"	kind:variable	line:15
+__init__	../BCMMCP3008.py	/^    def __init__(self):$/;"	kind:member	line:32
+binascii	../BCMMCP3008.py	/^import binascii$/;"	kind:namespace	line:25
+chnum	../readMcp3008.py	/^chnum=1$/;"	kind:variable	line:17
+ctypes	../BCMMCP3008.py	/^import ctypes$/;"	kind:namespace	line:27
+data	../readMcp3008.py	/^data=np.array(result["data"])$/;"	kind:variable	line:21
+dirPath	../readMcp3008.py	/^dirPath=os.path.dirname(os.path.abspath(sys.argv[0]))$/;"	kind:variable	line:47
+f	../readMcp3008.py	/^f = np.linspace(0, rate\/2, len(p))$/;"	kind:variable	line:35
+filePath	../readMcp3008.py	/^filePath=os.path.join(dirPath,filename+".jpg")$/;"	kind:variable	line:48
+filename	../readMcp3008.py	/^filename=time.strftime("%Y%m%d_%H%M%S",time.localtime())$/;"	kind:variable	line:46
+freqs	../readMcp3008.py	/^freqs = np.fft.fftfreq(data.size, 1\/rate)$/;"	kind:variable	line:36
+glob	../readMcp3008.py	/^import glob$/;"	kind:namespace	line:10
+idx	../readMcp3008.py	/^idx = np.argsort(freqs)$/;"	kind:variable	line:38
+idx2	../readMcp3008.py	/^idx2=idx[int(idx.shape[0]\/2):int(idx.shape[0]\/2)+20]$/;"	kind:variable	line:39
+matplotlib	../readMcp3008.py	/^import matplotlib$/;"	kind:namespace	line:3
+matplotlib	../readMcp3008.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+mcp	../readMcp3008.py	/^mcp = MCP3008()$/;"	kind:variable	line:19
+n	../readMcp3008.py	/^n=data.shape[0]$/;"	kind:variable	line:31
+np	../BCMMCP3008.py	/^import numpy as np$/;"	kind:namespace	line:23
+np	../readMcp3008.py	/^import numpy as np$/;"	kind:namespace	line:2
+os	../readMcp3008.py	/^import os$/;"	kind:namespace	line:7
+p	../readMcp3008.py	/^p = np.abs(np.fft.fft(data))\/n$/;"	kind:variable	line:34
+pd	../readMcp3008.py	/^import pandas as pd$/;"	kind:namespace	line:1
+plt	../readMcp3008.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+rate	../readMcp3008.py	/^rate=result["samplerate"]$/;"	kind:variable	line:24
+readMcp3008.py	../readMcp3008.py	1;"	kind:file	line:1
+read_adc	../BCMMCP3008.py	/^    def read_adc(self, adc_number):$/;"	kind:member	line:39
+read_adc_difference	../BCMMCP3008.py	/^    def read_adc_difference(self, differential):$/;"	kind:member	line:118
+read_adc_loop	../BCMMCP3008.py	/^    def read_adc_loop(self, adc_chnumber,Time):$/;"	kind:member	line:62
+readline	../readMcp3008.py	/^import readline$/;"	kind:namespace	line:9
+result	../readMcp3008.py	/^result=mcp.read_adc_loop(chnum,times)$/;"	kind:variable	line:20
+spidev	../BCMMCP3008.py	/^import spidev$/;"	kind:namespace	line:22
+sys	../readMcp3008.py	/^import sys$/;"	kind:namespace	line:8
+time	../BCMMCP3008.py	/^import time$/;"	kind:namespace	line:24
+time	../readMcp3008.py	/^import time$/;"	kind:namespace	line:6
+times	../readMcp3008.py	/^times=10000$/;"	kind:variable	line:14
